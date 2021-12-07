@@ -1,0 +1,10 @@
+
+t
+java:S1128"CRemove this unused import 'javax.xml.bind.annotation.XmlAttribute'.(§ƒ¶èÿÿÿÿÿHÚRMINORZ
+CODE_SMELL
+W
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼üHÛRMINORZ
+CODE_SMELL
+t
+java:S1128"CRemove this unused import 'javax.xml.bind.annotation.XmlTransient'.(™”ñƒÿÿÿÿÿHÜRMINORZ
+CODE_SMELL

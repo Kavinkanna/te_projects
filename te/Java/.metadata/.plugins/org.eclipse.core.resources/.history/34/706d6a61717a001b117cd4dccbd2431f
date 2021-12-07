@@ -1,0 +1,15 @@
+package com.tyss.custome_exception.chechkedexception;
+
+public class InsufficientBalanceException  extends Exception{
+
+	
+	@Override
+	public String getMessage() {
+		
+		return super.getMessage();
+	}
+	
+	
+	
+	
+}

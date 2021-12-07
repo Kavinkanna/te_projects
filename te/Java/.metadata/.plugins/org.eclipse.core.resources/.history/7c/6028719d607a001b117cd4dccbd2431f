@@ -1,0 +1,8 @@
+package com.tyss.elftraining.exceptions;
+
+public class MainClass {
+
+	public void readFile() {
+		
+	}
+}

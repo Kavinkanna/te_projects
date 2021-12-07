@@ -1,0 +1,13 @@
+package com.tyss.basics.sub;
+
+public interface MyInterface {
+
+	public static void name() {
+		System.out.println("static Method");
+	}
+	
+	@Override
+	public static String toString() {
+		System.out.println("hi");
+	}
+}

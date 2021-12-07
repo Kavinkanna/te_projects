@@ -1,0 +1,15 @@
+package com.tyss.basics.sub;
+
+import java.io.File;
+
+public class MyInterfaceImpl implements MyInterface{
+	
+	static MyInterface interface1 = new MyInterfaceImpl();
+	public static void main(String[] args) {
+		MyInterface.name();
+		interface1.getName();
+		String str = null;
+		str.length();
+		File file = new File("prop.txt")
+	}
+}

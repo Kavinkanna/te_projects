@@ -1,0 +1,9 @@
+package com.tyss.thread.common;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Movies movie = Movies.KGF;
+		System.out.println(movie);
+	}
+}

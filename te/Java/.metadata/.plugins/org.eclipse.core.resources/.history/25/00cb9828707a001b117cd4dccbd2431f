@@ -1,0 +1,17 @@
+package com.tyss.custome_exception.chechkedexception;
+
+public class ATMSimulator {
+
+	double balance = 40000;
+	
+	public void withDraw(double amount) {
+		
+		if (amount <= balance) {
+			System.out.println("Withdraw Successful");
+		}else {
+			throw new InsufficientBalanceException("Insufficient Balance")
+		}
+		
+	}
+	
+}

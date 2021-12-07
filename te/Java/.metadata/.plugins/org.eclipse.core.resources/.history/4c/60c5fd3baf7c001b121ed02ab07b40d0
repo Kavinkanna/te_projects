@@ -1,0 +1,15 @@
+package com.tyss.mycollection.common;
+
+public class MyArrayListTest {
+	
+	public static void main(String[] args) {
+		MyArray array = new MyArray(5);
+		
+		array.add(10);
+		array.add(20);
+		array.add(30);
+		array.add(40);
+		array.add(50);
+		
+	}
+}

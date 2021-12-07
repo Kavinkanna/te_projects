@@ -1,0 +1,14 @@
+package com.tyss.elftraining.common;
+
+public interface MyInterface {
+
+	public void name();
+	
+	public static void test() {
+		System.out.println("Inside method");
+	}
+	
+	default void PrintType() {
+		System.out.println("ok");
+	}
+}

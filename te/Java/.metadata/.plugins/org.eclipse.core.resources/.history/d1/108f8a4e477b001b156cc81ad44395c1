@@ -1,0 +1,23 @@
+package com.tyss.mycollection.arraylist;
+
+import java.util.ArrayList;
+
+public class PersonTest {
+	
+	public static void main(String[] args) {
+		ArrayList<Person> arrayList = new ArrayList<Person>();
+		
+		arrayList.add(new Person(90, "Prateek"));
+		arrayList.add(new Person(20,"Jeevan"));
+		arrayList.add(new Person(70, "Santosh"));
+		arrayList.add(new Person(10,"Amar"));
+		arrayList.add(new Person(80, "Nilim"));
+		arrayList.add(new Person(8,"Bunny"));
+		
+		for(Person person : arrayList) {
+			System.out.println(person);
+		}
+		
+		
+	}
+}

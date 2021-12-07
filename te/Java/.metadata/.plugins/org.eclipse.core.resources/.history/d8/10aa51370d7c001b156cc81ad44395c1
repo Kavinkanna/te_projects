@@ -1,0 +1,19 @@
+package com.tyss.mapinterface.common;
+
+import java.util.TreeMap;
+
+public class StudentTreeMap {
+
+	public static void main(String[] args) {
+		TreeMap<Student, Integer> map = new TreeMap<Student, Integer>();
+		map.put(new Student(10,"zbc"),90);
+		map.put(new Student(90,"fbc"),90);
+		map.put(new Student(50,"dbc"),90);
+		map.put(new Student(70,"bbc"),90);
+		map.put(new Student(5,"kbc"),90);
+		System.out.println(map);
+	}
+	
+}
+
+

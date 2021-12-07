@@ -1,0 +1,12 @@
+package com.tyss.threads.common;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		MyInterface interface1 = ()->{
+				System.out.println(" success ");
+				return true;
+		};
+	}
+}

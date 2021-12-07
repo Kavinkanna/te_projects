@@ -1,0 +1,61 @@
+package com.tyss.threads.common;
+
+
+class MyThread implements Runnable{
+
+	@Override
+	public void run() {
+		for (int i = 0; i < 3; i++) {
+			System.out.println(Thread.currentThread().getName() + " in control");  
+			
+		}
+		
+	}
+	
+}
+public class ExampleYield {
+	static String s1 = "Hi";
+	static String s2 = "Hello";
+	public static void main(String[] args) {
+//		MyThread myThread= new MyThread();
+//		MyThread myThread2 = new MyThread();
+//		
+//		new Thread(myThread).start();
+//		new Thread(myThread2).start();
+//		Thread.yield();
+		
+		Runnable ref1 = ()->{
+			synchronized (s1) {
+				System.out.println("Thread 1: locked s1");
+				try {
+					Thread.sleep(100);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+			
+			synchronized (s2) {
+				System.out.println("Thread 1: locked s2");
+			}
+		};
+		
+		Runnable ref2 = ()->{
+			synchronized (s2) {
+				System.out.println("Thread 2: locked s2");
+				try {
+					Thread.sleep(100);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+			
+			synchronized (s1) {
+				System.out.println("Thread 2: locked s1");
+			}
+		};
+		
+		new Thread(ref1).start();
+		new Thread(ref2).start();
+		
+	}
+}

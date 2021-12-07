@@ -1,0 +1,12 @@
+package com.tyss.elftraining.common;
+
+import com.tyss.elftraining.basic.MainClass;
+public class SubMainClass extends MainClass {
+
+	public static void main(String[] args) {
+		
+		String str = null;
+		System.out.println(str.charAt(0));
+		
+	}
+}

@@ -1,0 +1,21 @@
+package com.tyss.mycollection.arraylist;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetImpl {
+
+	public static void main(String[] args) {
+		HashSet<Integer> hashSet = new HashSet<Integer>();
+		hashSet.add(10);
+		hashSet.add(32);
+		hashSet.add(20);
+		hashSet.add(21);
+		
+	 Iterator<Integer> iterator = hashSet.iterator();
+	 
+	 while(iterator.hasNext()) {
+		 System.out.println(iterator.next());
+	 }
+	}
+}

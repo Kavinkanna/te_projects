@@ -1,0 +1,10 @@
+package com.tyss.mycollection.arraylist;
+
+import java.util.ArrayList;
+
+public class PersonTest {
+	
+	public static void main(String[] args) {
+		ArrayList<Person> arrayList = new ArrayList<Person>();
+	}
+}

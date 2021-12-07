@@ -1,0 +1,44 @@
+package com.tyss.collectionimpl.mycollection;
+
+public class MyArray {
+
+	int[] arr;
+	private int position = 0;
+	final static int DEFAULT_SIZE = 10;
+
+	public MyArray() {
+		arr = new int[DEFAULT_SIZE];
+	}
+
+	public MyArray(int size) {
+		arr = new int[size];
+	}
+
+	public boolean add(int element) {
+		arr[position++] = element;
+		return true;
+	}
+
+	public Integer get(int index) {
+		return arr[index];
+	}
+
+	public boolean remove(int index) {
+		int length = arr.length - index - 1;
+		System.arraycopy(arr, index + 1, arr, index, length);
+		return true;
+	}
+	
+	@Override
+	public String toString() {
+		String str ="";
+		System.out.print("[");
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i] !=0)
+			System.out.print(arr[i]+" ,");
+		}
+		System.out.print("]");
+		return "";
+	}
+
+}

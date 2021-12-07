@@ -1,0 +1,12 @@
+package com.tyss.collectionimpl.mycollection;
+
+public class Person implements Comparable<Person>{
+
+		int id;
+		String name;
+		
+		public Person(int id,String name) {
+			this.id = id;
+			this.name = name;
+		}
+}

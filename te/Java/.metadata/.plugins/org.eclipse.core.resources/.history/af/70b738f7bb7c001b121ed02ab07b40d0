@@ -1,0 +1,8 @@
+package com.tyss.thread.common;
+
+
+@FunctionalInterface
+public interface MyFunctionalInterface {
+//	public boolean getData(String name);
+	public void  getName(String n,String m);
+}

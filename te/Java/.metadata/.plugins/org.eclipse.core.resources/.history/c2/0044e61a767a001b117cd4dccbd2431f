@@ -1,0 +1,6 @@
+package com.tyss.custome_exception.customeuncheckedexception;
+
+public class AgeValidator extends RuntimeException {
+	
+	
+}

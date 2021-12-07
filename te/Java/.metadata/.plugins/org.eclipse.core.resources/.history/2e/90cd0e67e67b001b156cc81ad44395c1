@@ -1,0 +1,12 @@
+package com.tyss.mycollection.set;
+
+public class Student {
+	int id;
+	String name;
+	int standard;
+	double marks;
+	
+	public Student() {
+		super();
+	}
+}

@@ -1,0 +1,26 @@
+package com.tyss.elftraining.common;
+
+import static com.tyss.elftraining.common.StaticMethodClass.*;
+public class Elf implements MyInterface{
+
+	public static void main(String[] args) {
+//		StaticMethodClass.firstMethod();
+//		StaticMethodClass.second();
+//		StaticMethodClass.third();
+		
+		firstMethod();
+		second();
+		third();
+		
+		MyInterface.test();
+		Elf elf = new Elf();
+		elf.PrintType();
+		
+	}
+
+	@Override
+	public void name() {
+		// TODO Auto-generated method stub
+		
+	}
+}

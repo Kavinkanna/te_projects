@@ -1,0 +1,44 @@
+
+t
+java:S1126$"AReplace this if-then-else statement by a single return statement.(›•ï«8ÚÂªÁ/H¸
+RMINORZ
+CODE_SMELL
+`
+java:S49254"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8õ¾œÁ/H¹
+RMAJORZ
+CODE_SMELL
+‚
+java:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(”¨½«ÿÿÿÿÿ8ò¿¹Á/Hµ
+RBLOCKERZBUG
+t
+java:S1126>"AReplace this if-then-else statement by a single return statement.(›•ï«8ò¿¹Á/H»
+RMINORZ
+CODE_SMELL
+s
+java:S2184"BCast one of the operands of this division operation to a "double".(‚èëÏøÿÿÿÿ8Ù‰õÀ/H±
+RMINORZBUG
+i
+java:S1135*"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8õ¾œÁ/H³
+RINFOZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔø8²¨Á/H°
+RMINORZ
+CODE_SMELL
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Áº¢è8²¨Á/H·
+RBLOCKERZBUG
+i
+java:S1135D"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ò¿¹Á/Hº
+RINFOZ
+CODE_SMELL
+v
+java:S20956"HUse try-with-resources or close this "Connection" in a "finally" clause.(İâ˜8²¨Á/H´
+RBLOCKERZBUG
+v
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(İâ˜8ò¿¹Á/H¶
+RBLOCKERZBUG
+`
+java:S4925"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8ò¿¹Á/H²
+RMAJORZ
+CODE_SMELL

@@ -1,0 +1,29 @@
+package com.tyss.threads.common;
+
+public class SyncTest {
+
+	public static void main(String[] args) {
+		SyncThread syncThread = new SyncThread();
+		
+		Runnable ref1 = ()->{
+		
+			syncThread.increment();
+			syncThread.showValue();
+			
+		};
+		
+		Runnable ref2 =()->{
+			
+			syncThread.decrement();
+			syncThread.showValue();
+			
+		};
+		
+		
+		Thread thread = new Thread(ref1);
+		Thread thread2 = new Thread(ref2);
+		
+		thread.start();
+		thread2.start();
+	}
+}

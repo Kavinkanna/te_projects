@@ -1,0 +1,13 @@
+package com.tyss.custome_exception.chechkedexception;
+
+public class SBIAtm {
+
+	public static void main(String[] args) {
+		ATMSimulator atmSimulator = new ATMSimulator();
+		try {
+			atmSimulator.withDraw(0);
+		} catch (InsufficientBalanceException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

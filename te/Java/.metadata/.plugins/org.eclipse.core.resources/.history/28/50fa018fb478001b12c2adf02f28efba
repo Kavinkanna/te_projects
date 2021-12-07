@@ -1,0 +1,26 @@
+package com.tyss.basics.main;
+
+public class ParentClass {
+
+	int id ;
+	String name;
+	String designation;
+	double salary;
+	
+	public void printName() {
+		System.out.println(name);
+	}
+	
+	protected void printId() {
+		System.out.println(id);
+	}
+	 void printDesignation() {
+		 System.out.println(designation);
+	 }
+	 
+	 private void printSalary() {
+		System.out.println(salary);
+	}
+	 
+	 
+}

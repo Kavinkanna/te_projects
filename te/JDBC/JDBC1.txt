@@ -1,0 +1,75 @@
+	Java - Standalone App
+	J2EE - Web App  -> collection of APIs 
+						API -> Collection of pkgs + functionality 
+		3 APIs 
+				JDBC -  Java DB Connectivity -> Hibernate
+				Servlet 
+				JSP - JavaServer Pages
+	
+	JDBC  
+		for java app to interact with RDBMS(only) 
+		one and only API to interact with Database
+		
+	5 Steps 
+			1)Load the driver 
+			2)get DB Connection via driver 
+			3)issue sql queries via connection 
+			4)process the result returned by sql query
+			5)close all the JDBC Objects.
+			
+	CRUD
+	
+	java.sql -->
+			
+	1)Load the driver 
+		2 ways -> 
+			1) Create the instance of Driver class 
+				registerDriver(instName) present  DriverManager Class
+			
+		Mysql Connector 
+		
+		Driver :
+			    must and External Component 
+				DB vendor Should provide the Driver 
+				DB dependent 
+				
+			2) Class.forName().newInstance;
+			
+		2)get DB Connection via driver 		
+			DriverManager.getConnection(String); 
+			DriverManager.getConnection(String,String,String);
+			DriverManager.getConnection(info.properties);
+		
+			URL -> Uniform Resuorce Locator 	
+					
+			Web URL -> it is used to uniquely indentify the appln in network
+						Resuorce
+			
+			DB URL -> it is used to uniquely indentify the Database in RDBMS
+						one of the table in database
+				
+				<protocol> : <subProtocol> : <Subname>
+				
+				protocol    - jdbc 
+				subProtocol - mysql
+				suname 	--> 4 parts 
+							1)hostname : computer name , Ip address
+							2)port number 
+							3)schema name / database name 
+							4)user and password
+				jdbc:mysql://[host1][:port][/[database]][?propertyName1=propertyValue1
+				[&propertyName2=propertyValue2]...]			
+				jdbc:mysql://localHost:port/databasename?user=root&password=root&password
+			
+			DriverManager :
+						to manage Driver and get Connection via driver 
+						Driver Ref 
+						DBurl 
+		
+		
+		
+		
+		
+		
+		
+			

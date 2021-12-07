@@ -1,0 +1,10 @@
+package com.tyss.mycollection.common;
+
+public class ArrayTest {
+	public static void main(String[] args) {
+		
+		MyArray array = new MyArray(8);
+		array.add(10);
+		System.out.println(array);
+	}
+}

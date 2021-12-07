@@ -1,0 +1,12 @@
+package com.tyss.mycollection.common;
+
+import java.util.ArrayList;
+import java.util.Collection;
+	
+import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
+
+public class MyCollectionImpl {
+	public static void main(String[] args) {
+		Collection collection = new ArrayList();
+	}
+}

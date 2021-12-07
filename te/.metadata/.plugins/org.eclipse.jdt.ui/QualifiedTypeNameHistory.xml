@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.condition.EnabledOnJre"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance.Lifecycle"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.RepetitionInfo"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.RepeatedTest"/>
+<fullyQualifiedTypeName name="org.apache.log4j.HTMLLayout"/>
+<fullyQualifiedTypeName name="org.apache.log4j.SimpleLayout"/>
+<fullyQualifiedTypeName name="com.te.junit.math.MathUtil"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.condition.DisabledIf"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.condition.JRE"/>
+<fullyQualifiedTypeName name="com.bcits.springcoreannotations.beans.MessageBean"/>
+</qualifiedTypeNameHistroy>

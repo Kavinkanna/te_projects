@@ -1,0 +1,16 @@
+package com.tyss.mycollection.set;
+
+import java.util.HashSet;
+
+public class HashSetImpl {
+	public static void main(String[] args) {
+		HashSet hashSet = new HashSet();
+		
+		hashSet.add(10);
+		hashSet.add(true);
+		hashSet.add("ABC");
+		hashSet.add(null);
+		
+		System.out.println(hashSet);
+	}
+}

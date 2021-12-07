@@ -1,0 +1,5 @@
+package com.tyss.threads.common;
+
+public class ThreadTest {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.tyss.basics.main&apos; to &apos;basics/src&apos;&#x0D;&#x0A;- Original project: &apos;basics&apos;&#x0D;&#x0A;- Destination element: &apos;basics/src&apos;&#x0D;&#x0A;- Original element: &apos;basics/src/com.tyss.basics.main&apos;" description="Copy package" destination="/src" element1="/src&lt;com.tyss.basics.main" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1614400062712" version="1.0"/>
+</session>

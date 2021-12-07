@@ -1,0 +1,26 @@
+package com.tyss.threads.common;
+
+
+class MyThread implements Runnable{
+
+	@Override
+	public void run() {
+		for (int i = 0; i < 3; i++) {
+			System.out.println(Thread.currentThread().getName() + " in control");  
+			
+		}
+		
+	}
+	
+}
+public class ExampleYield {
+	public static void main(String[] args) {
+		MyThread myThread= new MyThread();
+		MyThread myThread2 = new MyThread();
+		
+		new Thread(myThread).start();
+		new Thread(myThread2).start();
+		Thread.yield();
+		
+	}
+}

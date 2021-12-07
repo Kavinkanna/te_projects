@@ -1,0 +1,16 @@
+package com.tyss.basics.sub;
+
+import com.tyss.basics.main.ParentClass;
+
+public class SeconadryInfo extends ParentClass{
+	
+	@Override
+	protected void printId() {
+		super.printId();
+	}
+	
+	public static void main(String[] args) {
+		ParentClass class1 = new ParentClass();
+		class1.
+	}
+}

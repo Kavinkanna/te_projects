@@ -1,0 +1,5 @@
+package com.tyss.threads.enumanno;
+
+public enum WeekDays {
+
+}

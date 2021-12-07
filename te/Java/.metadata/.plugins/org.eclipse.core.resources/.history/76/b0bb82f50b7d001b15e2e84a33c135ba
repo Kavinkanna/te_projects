@@ -1,0 +1,20 @@
+package com.tyss.threads.common;
+
+public class SyncThread {
+	private int v=0;
+	
+	public SyncThread() {
+		// TODO Auto-generated constructor stub
+	}
+	 public synchronized void increment() {
+		v++;
+	}
+	
+	 public synchronized void decrement() {
+		v--;
+	}
+	
+   	public synchronized void showValue() {
+		System.out.println(v);
+	}
+}

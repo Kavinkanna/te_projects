@@ -1,0 +1,6 @@
+package com.tyss.thread.common;
+
+public interface MyFunctionalInterface {
+
+	public void getData();
+}

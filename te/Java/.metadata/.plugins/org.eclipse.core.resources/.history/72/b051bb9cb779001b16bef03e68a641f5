@@ -1,0 +1,16 @@
+package com.tyss.basics.sub;
+
+import java.io.FileReader;
+
+public class MyInterfaceImpl implements MyInterface{
+	
+	static MyInterface interface1 = new MyInterfaceImpl();
+	public static void main(String[] args) {
+//		MyInterface.name();
+//		interface1.getName();
+//		String str = null;
+//		str.length();
+		
+		FileReader fileReader = new FileReader("");
+		}
+}

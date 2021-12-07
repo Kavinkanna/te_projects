@@ -1,0 +1,7 @@
+package com.tyss.thread.threadconcepts;
+
+public class ThreadsByLamda {
+	public static void main(String[] args) {
+		
+	}
+}

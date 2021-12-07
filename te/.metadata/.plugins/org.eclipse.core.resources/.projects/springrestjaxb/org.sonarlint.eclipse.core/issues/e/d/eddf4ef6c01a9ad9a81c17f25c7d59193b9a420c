@@ -1,0 +1,36 @@
+
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(Ö¤§¬HíRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(±‡¼HêRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(İ»ÚûüÿÿÿÿHäRMAJORZ
+CODE_SMELL
+d	java:S106("9Replace this use of System.out or System.err by a logger.(áñÁ·HğRMAJORZ
+CODE_SMELL
+d	java:S106'"9Replace this use of System.out or System.err by a logger.(¨’ö±HïRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(†’ùîûÿÿÿÿHèRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(“ÃìÓıÿÿÿÿHéRMAJORZ
+CODE_SMELL
+t
+java:S1128"HRemove this unused import 'com.bcits.springrestjaxb.bean.UserOtherInfo'.(“„ÏHáRMINORZ
+CODE_SMELL
+W
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼üHâRMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(»›HåRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(š•æ–HæRMAJORZ
+CODE_SMELL
+g
+java:S1128	"6Remove this unused import 'javax.xml.bind.Marshaller'.(±æê×úÿÿÿÿHãRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(“àö¯ıÿÿÿÿHçRMAJORZ
+CODE_SMELL
+d	java:S106""9Replace this use of System.out or System.err by a logger.(Œ²í¾HëRMAJORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(çµ”÷ÿÿÿÿÿHîRMAJORZ
+CODE_SMELL
+i	java:S106$"9Replace this use of System.out or System.err by a logger.(¶¬ÎûÿÿÿÿHìRMAJORZ
+CODE_SMELL

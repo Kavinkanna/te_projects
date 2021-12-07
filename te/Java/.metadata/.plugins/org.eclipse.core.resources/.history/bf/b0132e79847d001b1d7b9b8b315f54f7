@@ -1,0 +1,7 @@
+package com.tyss.thread.multithread;
+
+public class SyncBlocks {
+	public static void main(String[] args) {
+		
+	}
+}

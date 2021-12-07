@@ -1,0 +1,20 @@
+
+
+java:S1989k"aHandle the following exceptions that could be thrown by "include": ServletException, IOException.(Õ÷Ê«HÆRMINORZVULNERABILITY
+‰
+java:S1989>"ZHandle the following exception that could be thrown by "parseLong": NumberFormatException.(Ïõù—HÂRMINORZVULNERABILITY
+‹
+java:S1989D"\Handle the following exception that could be thrown by "parseDouble": NumberFormatException.(™…ŠHÃRMINORZVULNERABILITY
+	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²®Û“üÿÿÿÿH¾RMINORZ
+CODE_SMELL
+
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(¾šçŞH¿RMINORZVULNERABILITY
+ˆ
+java:S1989<"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(É¶ãíHÁRMINORZVULNERABILITY
+b
+java:S11357"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÀRINFOZ
+CODE_SMELL
+
+java:S1989E"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(™•èûÿÿÿÿHÄRMINORZVULNERABILITY
+
+java:S1989F"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(¦ŠÓĞşÿÿÿÿHÅRMINORZVULNERABILITY

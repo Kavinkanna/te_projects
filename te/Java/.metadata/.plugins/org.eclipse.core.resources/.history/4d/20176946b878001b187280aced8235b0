@@ -1,0 +1,10 @@
+package com.tyss.elftraining.common;
+
+public interface MyInterface {
+
+	public void name();
+	
+	public static void test() {
+		System.out.println("name");
+	}
+}

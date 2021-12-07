@@ -1,0 +1,17 @@
+package com.tyss.elftraining.exceptions;
+
+public class MainClass {
+
+	public void readFile() {
+		FileInputStream fileInputStream = new FileInputStream("src/Demo.txt");
+		int i = fileInputStream.read();
+		
+		while( i != -1) {
+			char data = (char) i;
+			System.out.print(data);
+			i = fileInputStream.read();
+		}
+		fileInputStream.close();
+
+	}
+}

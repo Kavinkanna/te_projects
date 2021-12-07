@@ -1,0 +1,11 @@
+package com.tyss.basics.sub;
+
+import com.tyss.basics.main.ChildClass;
+import com.tyss.basics.main.ParentClass;
+
+public class TestAccess {
+	public static void main(String[] args) {
+		ParentClass class1  = new ParentClass();
+		
+	}
+}

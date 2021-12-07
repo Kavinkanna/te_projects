@@ -1,0 +1,13 @@
+package com.tyss.threads.common;
+
+public class ThreadTest {
+	public static void main(String[] args) {
+		System.out.println(" started ");
+		FirstThread firstThread = new FirstThread();
+		SecondThread secondThread = new SecondThread();
+		
+		firstThread.start();
+		secondThread.start();
+		System.out.println(" Ended ");
+	}
+}

@@ -1,0 +1,28 @@
+package com.tyss.collectionimpl.mycollection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList<Integer> array = new ArrayList<Integer>();
+
+		array.add(10);
+		array.add(30);
+		array.add(40);
+		array.add(20);
+		array.add(90);
+		array.add(60);
+
+		System.out.println(array);
+
+		Iterator<Integer> iterator = array.iterator();
+
+		while (iterator.hasNext()) {
+			System.out.print(iterator.next());
+			System.out.print(" ");
+		}
+		System.out.println(" ");
+
+	}
+}

@@ -1,0 +1,6 @@
+package com.tyss.threads.common;
+
+public interface MyInterface {
+
+	public boolean getData();
+}

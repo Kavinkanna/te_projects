@@ -1,0 +1,13 @@
+package com.tyss.thread.common;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		MyFunctionalInterface ref1 = () ->{
+			System.out.println("success");
+		};
+		
+		ref1.getData();
+	}
+}

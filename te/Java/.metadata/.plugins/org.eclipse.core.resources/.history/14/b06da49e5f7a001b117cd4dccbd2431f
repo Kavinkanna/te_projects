@@ -1,0 +1,42 @@
+package com.tyss.elftraining.common;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import com.tyss.elftraining.basic.MainClass;
+public class SubMainClass extends MainClass {
+
+	public static void main(String[] args) {
+//		System.out.println("started");
+//		try {
+//				String str = null;
+//				str.charAt(0);
+//		} 
+//		finally {
+//			System.out.println(" Finally Blolck ");
+//			System.out.println();
+//		}
+//	System.out.println("ended");
+		
+		
+		try {
+			String str = "abv";
+			str.charAt(0);
+			FileInputStream fileInputStream = new FileInputStream("src/Demo.txt");
+			int i = fileInputStream.read();
+			
+			while( i != -1) {
+				char data = (char) i;
+				System.out.print(data);
+				i = fileInputStream.read();
+			}
+			fileInputStream.close();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.tyss.threads.common;
+
+public class SyncThread {
+	int v;
+	
+	public void Increment() {
+		
+	}
+	
+	
+	
+}

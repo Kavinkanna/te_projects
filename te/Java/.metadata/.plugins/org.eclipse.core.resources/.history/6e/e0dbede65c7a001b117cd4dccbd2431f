@@ -1,0 +1,12 @@
+package com.tyss.elftraining.common;
+
+import com.tyss.elftraining.basic.MainClass;
+import com.tyss.elftraining.basic.SubClass;
+public class SubMainClass extends MainClass {
+
+	public static void main(String[] args) {
+		
+		SubMainClass class1 = new SubMainClass();
+		
+	}
+}

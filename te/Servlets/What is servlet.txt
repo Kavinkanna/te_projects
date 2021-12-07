@@ -1,0 +1,28 @@
+What is a Servlet?
+
+Servlet can be described in ways, depending on the context. many
+
+• Servlet is technology which is a used to create a web application.
+
+• Servlet is many an API that provides interfaces and classes including documentation.
+
+Servlet is an interface that must be implemented for creating any Servlet.
+
+• Servlet is class that the capabilities of the extends servers and responds
+ to the incoming requests. It can respond to any requests.
+
+• Servlet is a web component that is deployed on the server to create a dynamic web page.
+
+As Servlet Technology uses Java, web applications made using Servlet are Secured, 
+Scalable and Robust.
+
+
+ADVANTAGES OF USING SERVLETS
+
+• Less response time because each request runs in a separate thread.
+
+• Servlets are scalable.
+
+• Servlets are robust and object oriented.
+
+• Servlets are platform independent

@@ -1,0 +1,21 @@
+package com.tyss.basics.sub;
+
+import com.tyss.basics.main.ParentClass;
+
+public class SeconadryInfo extends ParentClass{
+
+	public SeconadryInfo(int id, String name, String designation, double salary) {
+		super(id, name, designation, salary);
+	}
+
+	int pinCode;
+	String bloodGroup;
+	
+	public void printPinCode() {
+		System.out.println(pinCode);
+	}
+	
+	public void printBloodGroup() {
+		System.out.println(bloodGroup);
+	}
+}

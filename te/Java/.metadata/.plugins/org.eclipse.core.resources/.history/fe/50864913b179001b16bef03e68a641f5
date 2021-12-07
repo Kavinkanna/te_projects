@@ -1,0 +1,15 @@
+package com.tyss.basics.main;
+
+public class SubClass extends ParentClass {
+
+	
+	public static void main(String[] args) {
+		ParentClass  class1 = new ParentClass();
+		class1.printDesignation();
+		class1.printId();
+		class1.printName();
+		
+	}
+	
+	
+}

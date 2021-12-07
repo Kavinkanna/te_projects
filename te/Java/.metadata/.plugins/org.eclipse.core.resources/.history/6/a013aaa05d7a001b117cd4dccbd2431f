@@ -1,0 +1,18 @@
+package com.tyss.elftraining.common;
+
+import com.tyss.elftraining.basic.MainClass;
+public class SubMainClass extends MainClass {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+		} 
+		finally {
+			System.out.println(" Finally Blolck ");
+			System.out.println();
+		}
+	
+		
+	}
+}

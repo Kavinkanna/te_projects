@@ -1,0 +1,26 @@
+package com.tyss.thread.multithread;
+
+public class Threads {
+
+	public static void main(String[] args) {
+		String name1 = "ABC";
+		String name2 = "ABC";
+		
+		Thread tt1 = new Thread() {
+			public void run() {  
+		          synchronized (resource1) {  
+		           System.out.println("Thread 1: locked resource 1");  
+		           try {
+					resource1.wait(2000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+		           synchronized (resource2) {  
+		            System.out.println("Thread 1: locked resource 2");  
+		           }  
+		         }  
+		      }   
+		};
+		
+	}
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="card mt-2" action="" name="SignUp" onsubmit="validate();return false" method="GET">
+            <div class=" card-body form-row">
+              <div class="form-group col-md-6">
+                <label for="emial">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+              </div>
+              <div class="card-body form-group col-md-6">
+                <label for="pwd">Password</label>
+                <input type="password" class="form-control" id="pwd" name="pwd"placeholder="Password">
+              </div>
+            </div>
+            <div class=" card-body form-group">
+              <label for="add">Address</label>
+              <input type="text" class="form-control" id="add" name="add" placeholder="1234 Main St">
+            </div>
+            <div class="card-body form-row">
+              <div class="form-group col-md-6">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" name="city">
+              </div>
+              <div class="form-group col-md-2">
+                <label for="phn">Phone Number</label>
+                <input type="text" class="form-control" id="phn" name="phn">
+                <p id="errPhoneNum"></p>
+              </div>
+            </div>
+            <div class=" card-body form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" name="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+
+
+    </div>
+
+    <script src="/Bootstrap/jquery.js"></script>
+    <script src="/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="/form/signup.js"></script>
+</body>
+</html>

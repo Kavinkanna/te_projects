@@ -1,0 +1,35 @@
+package com.tyss.thread.multithread;
+
+public class Threads {
+
+	public static void main(String[] args) {
+		String name1 = "ABC";
+		String name2 = "ABC";
+		
+		Thread tt1 = new Thread() {
+			 public void run() {  
+		          synchronized (resource1) {  
+		           System.out.println("Thread 1: locked resource 1");  
+		          
+		           synchronized (resource2) {  
+		            System.out.println("Thread 1: locked resource 2");  
+		           }  
+		         }
+		};
+		
+		Thread tt2 = new Thread() {
+			public void run() {
+				synchronized (name2) {
+				System.out.println("name 1 blocked by Two");	
+				}
+				
+				synchronized (name1) {
+					System.out.println("name 2 blocked by Two ");
+				}
+			};
+		};
+		
+		tt1.start();
+		tt2.start();
+	}
+}

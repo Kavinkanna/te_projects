@@ -1,0 +1,10 @@
+package com.tyss.mapinterface.common;
+
+import java.util.HashMap;
+
+public class HashMapImpl {
+
+	public static void main(String[] args) {
+		HashMap<String, long> hashmap = new HashMap<String, long>();
+	}
+}

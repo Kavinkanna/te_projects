@@ -1,0 +1,22 @@
+
+{
+java:S1192,"GDefine a constant instead of duplicating this literal "<html>" 3 times.(‹æÛûÿÿÿÿH¨RCRITICALZ
+CODE_SMELL
+|
+java:S11927"HDefine a constant instead of duplicating this literal "</body>" 3 times.(ÂğÕúÿÿÿÿH¬RCRITICALZ
+CODE_SMELL
+|
+java:S11928"HDefine a constant instead of duplicating this literal "</html>" 3 times.(îøŸ‹ùÿÿÿÿH°RCRITICALZ
+CODE_SMELL
+v
+java:S1192-"GDefine a constant instead of duplicating this literal "<body>" 3 times.(ôôÄ°H´RCRITICALZ
+CODE_SMELL
+h
+java:S1128	"<Remove this unused import 'javax.servlet.RequestDispatcher'.(Ëöò¼H¸RMINORZ
+CODE_SMELL
+
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(¾šçŞH¹RMINORZVULNERABILITY
+
+java:S1989!"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ÃãëÿÿÿÿÿHºRMINORZVULNERABILITY
+
+java:S1989N"aHandle the following exceptions that could be thrown by "include": ServletException, IOException.(Õ÷Ê«H»RMINORZVULNERABILITY

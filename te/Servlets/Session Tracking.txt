@@ -1,0 +1,79 @@
+Session Tracking in Servlets
+
+Session simply means a particular interval of time.
+
+Session Tracking is a way to maintain state (data) of an user. 
+It is also known as session management in servlet.
+
+Http protocol is a stateless so we need to maintain state using session 
+tracking techniques. 
+
+Each time user requests to the server, server treats the request as the new request. 
+So we need to maintain the state of an user to recognize to particular user.
+
+Why use Session Tracking?
+To recognize the user It is used to recognize the particular user.
+
+Session Tracking Techniques
+There are four techniques used in Session tracking:
+
+Cookies
+Hidden Form Field
+URL Rewriting
+HttpSession
+----------------------------------------------------------------------------------
+
+Cookies in Servlet
+A cookie is a small piece of information that is persisted between the 
+multiple client requests.
+
+A cookie has a name, a single value, and optional attributes such as a comment, 
+path and domain qualifiers, a maximum age, and a version number
+
+How Cookie works
+By default, each request is considered as a new request. 
+In cookies technique, we add cookie with response from the servlet. 
+So cookie is stored in the cache of the browser. After that if request 
+is sent by the user, cookie is added with request by default. 
+Thus, we recognize the user as the old user.
+
+Types of Cookie
+There are 2 types of cookies in servlets.
+
+Non-persistent cookie -It is valid for single session only. 
+					    It is removed each time when user closes the browser.
+Persistent cookie     -It is valid for multiple session . 
+						It is not removed each time when user closes the browser. 
+						It is removed only if user logout or signout.
+
+
+Advantage of Cookies
+Simplest technique of maintaining the state.
+Cookies are maintained at client side.
+
+Disadvantage of Cookies
+It will not work if cookie is disabled from the browser.
+Only textual information can be set in Cookie object.
+
+
+How to create Cookie?
+Let's see the simple code to create cookie.
+
+Cookie ck=new Cookie("user","Rakesh");//creating cookie object  
+response.addCookie(ck);//adding cookie in the response  
+
+---------------------------------------------------------------------
+URL Rewriting
+In URL rewriting, we append a token or identifier to the URL of 
+the next Servlet or the next resource. 
+We can send parameter name/value pairs using the following format:
+
+url?name1=value1&name2=value2&??
+
+A name and a value is separated using an equal = sign, 
+a parameter name/value pair is separated from another parameter 
+using the ampersand(&).
+When the user clicks the hyperlink, the parameter name/value pairs 
+will be passed to the server. 
+From a Servlet, we can use getParameter() method to obtain a parameter value.
+

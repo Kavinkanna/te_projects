@@ -1,0 +1,123 @@
+	
+	Java    --  .class --> JVM JRE JDK   -> JRE   -->processor
+	c / c++ --  .exe   -->  directly ineract with processor
+
+	Major Version -->  1.0 
+					   1.2 
+					   1.5
+					   1.8 -->                --> lambda expression
+								  --> forEach()
+								  --> default & statics methods interface
+								  --> Functional Interface --> only abstract method
+								  --> stream API
+								  --> Collection API improvement
+								  --> TIME 
+					   14 -->
+	
+		access specifer access modifier returnType method_name(args){
+		
+		}
+		
+		access specifer --> public      --> anywhere in the project
+							protected   --> Inside the pkg ,outSide the if there is Is-A relation
+							default/pkg level -->  Inside the pkg
+							private     --> class Level 
+			
+		access modifier --> static        --> ONE FOR THE CLASS
+							non static	  --> ONE FOR THE OBJECT
+							
+						static()  -->  outside the class --> using the Classname.method() Classname.varName
+									   Inside the class  --> method() , varName
+									   
+						non static()  --> outSide the class --> by craeting the Object 
+										  inside the class  --> 
+																static() --> by craeting the Oject
+																non-static --> directly
+							
+							
+	Constructor --> 	allocates any memory ? NO
+					Overload ? Yes
+					override ? NO
+					recursion ? No
+					
+	Overloading -->   	1)no of args
+				2)order of args
+				3) change in the type 
+					
+					it takes place in with in the class & sub class 
+	
+	Override    -->  1) inheritance 
+			 2) happen subclass
+			 3) name & params should be same 
+			 4) should not reduce the visibility 
+	
+	Abstract Class & Method 
+	
+				abstract method : no implimentation , abstract keyword
+				abstract class  : which is declared with abstract keyword
+		
+		super() --> it creates object super class and copies all non-static members
+	
+	Interface   --> methods are by default abstract 
+					data members static final
+			
+					non static data members --> No 
+					abstract static methods --> No
+					abstract  method        --> Yes 
+					concrete method         --> yes  --> default & static
+					
+				using Impliments Keyword 
+				
+				Class Impliments Interface      --->
+				Interface extends Interface     ______
+				Class extends class
+				Interface impliments Class --> NO
+				Interface extends Class    --> NO
+				
+			Marker Interface        Functional Interface
+				
+			Empty Interface         only one Abstract method  
+			 1)Serializable				1)Runnable
+			 2)Clonable					2)Comparable
+			 3)Random Access			3)Comparator
+			 4)Remote
+			 5)EventListner
+					           String  Exception      		   
+	OOPs -- 1)Inheritance  --> single ,multilevel ,multiple ,  hierarchical , hybrid 
+		    2)Abstraction  --> 
+								1)gerneralise the common method into the 
+								  super type(abstract class or interface)
+								2)achieve Upcasting
+								3) upcasted reference call the methods 
+								
+			3)Polymorphism -->  binding of method declaration & method implimentation  
+							   1)compile time
+								  binding  at the time of compilation
+								  early binding & static binding
+								  eg - method overloading
+							   2)Runtime 
+								binding at Runtime based on the Object that we create 
+								dynamic binding & late Binding
+								eg - method Overriding
+								
+			4)Encapsulation : 
+							Java Bean : 1)concrete class
+										2) data members should be private 
+										3) only getters & setters
+										4)public default constructor
+										5) impliments serializable 
+
+						 Final 		  Abstract   class with only one private Constructor 
+							A			B        C
+	Inheritance            No          yes       No
+	Instanitiation         Yes			NO       No
+			
+			
+				
+							
+							
+							
+							
+							
+							
+							

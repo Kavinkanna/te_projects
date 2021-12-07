@@ -1,0 +1,9 @@
+package com.tyss.threads.enumanno;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		MyDemoThread demoThread = new  MyDemoThread();
+
+	}
+}

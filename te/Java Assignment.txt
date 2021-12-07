@@ -1,0 +1,47 @@
+1. What are the main differences between array and
+   collection?
+
+2. Explain various interfaces used in Collection
+   framework?
+
+3. What is the difference between ArrayList and Vector?
+
+4. What is the difference between ArrayList and
+   LinkedList?
+
+5. What is the difference between Iterator and
+   ListIterator?
+
+6. What is the difference between List and Set?
+
+7. What is the difference between HashSet and
+   TreeSet?
+
+8. What is the difference between HashSet and
+   HashMap?
+
+9. What is the difference between HashMap and
+   Hashtable?
+
+10.What is the difference between Comparable and
+   Comparator?
+
+11.How to synchronize List, Set and Map elements?
+
+12.What do you understand by fail-fast?
+
+13. What is the difference between Array and ArrayList?
+
+14. How to remove duplicates from ArrayList?
+
+15.Write a Java program to copy one array list into another.
+
+16.Write a Java program of swap two elements in an array list.
+
+17.Write a Java program to iterate through all elements in a linked list starting at the specified position.
+
+18. Write a Java program to get the first and last occurrence of the specified elements in a linked list.
+
+19.Write a Java program to retrieve but does not remove, the first element of a linked list.
+
+20.Write a Java program to convert a linked list to array list.

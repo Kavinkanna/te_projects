@@ -1,0 +1,33 @@
+RequestDispatcher in Servlet
+
+The RequestDispatcher interface provides the facility of dispatching 
+the request to another resource it may be html, servlet or jsp. 
+
+This interface can also be used to include the content of another resource also. 
+
+It is one of the way of servlet collaboration.
+
+There are two methods defined in the RequestDispatcher interface
+
+1.public void forward(ServletRequest request,ServletResponse response)
+	Forwards a request from a servlet to another resource 
+	(servlet, JSP file, or HTML file) on the server.
+	
+	//neglects previous response 
+	
+2.public void include(ServletRequest request,ServletResponse response)
+	Includes the content of a resource 
+	(servlet, JSP page, or HTML file) in the response.
+	
+	//considers all response
+	
+
+Syntax of getRequestDispatcher method
+public RequestDispatcher getRequestDispatcher(String resource);
+
+
+Example of using getRequestDispatcher method
+RequestDispatcher rd=request.getRequestDispatcher("servlet2");  
+//servlet2 is the url-pattern of the second servlet  
+  
+rd.forward(request, response);//method may be include or forward 

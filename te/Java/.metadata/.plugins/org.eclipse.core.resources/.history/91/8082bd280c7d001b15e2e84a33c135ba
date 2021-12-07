@@ -1,0 +1,23 @@
+package com.tyss.threads.common;
+
+public class SyncThread {
+	private int v;
+	{
+		v=0;
+	}
+	public SyncThread(int v) {
+		this.v = v;
+	}
+	
+	 public synchronized void increment() {
+		v++;
+	}
+	
+	 public synchronized void decrement() {
+		v--;
+	}
+	
+   	public synchronized void showValue() {
+		System.out.println(v);
+	}
+}

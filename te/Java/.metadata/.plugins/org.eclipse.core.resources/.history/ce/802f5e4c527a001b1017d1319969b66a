@@ -1,0 +1,18 @@
+package com.tyss.elftraining.common;
+
+import static com.tyss.elftraining.common.StaticMethodClass.*;
+
+public class Elf {
+
+	public static void main(String[] args) {
+//		StaticMethodClass.firstMethod();
+//		StaticMethodClass.second();
+//		StaticMethodClass.third();
+
+		firstMethod();
+		second();
+		third();
+
+	}
+
+}

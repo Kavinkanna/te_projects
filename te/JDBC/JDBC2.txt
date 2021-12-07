@@ -1,0 +1,55 @@
+	select --> table 
+	update --> n no of rows affected
+	insert --> n no of rows affected
+	delete --> n no of rows affected
+	
+	Select sql 				other than select sql 
+	
+	Static SQL queries  ->  any sql queries may have or may not have 
+							the condition ,even if the condition exits
+							values hardcoded 
+							
+							select * from table_name;
+							select * from table_name where col_name = 20;
+	
+		Statement   -->  connectionObject.createStatement(); 
+		
+		
+		
+	Dynamic SQL Queries ->  sql queries must have condition but 
+							atleast one of the value is decided at runtime
+							
+							select * from table_name;
+							insert into table_name values(10,'pp');
+							
+							select * from table_name 
+							where id = ? ;
+							
+							insert into table_name values(?,?);
+	PreparedStatment --> connectionObject.prepareStatement()				
+			
+
+		Static  -->  select    -->  executeQuery()
+		Static  -->  other than select	--> executeUpdate();			
+							
+		Dynamic  --> select	  --> executeQuery()		
+		Dynamic  --> other than select --> executeUpdate();		
+							
+					select --> executeQuery(); -->  ResultSet 
+					other select --> executeUpdate(); --> int
+							
+			while()  if()
+	    ResultSet   getXXX("col_name");	   getInt();
+						   getString()
+						   getDate()
+						   getLong()
+						   getDouble()
+						   getBoolean()
+						   
+		PreparedStatement	setXXX(position of ?, value)
+							
+							setInt()
+							setString()
+		
+		
+		

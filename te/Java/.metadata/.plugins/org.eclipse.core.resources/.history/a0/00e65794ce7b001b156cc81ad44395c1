@@ -1,0 +1,35 @@
+package com.tyss.mycollection.arraylist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+
+public class HashSetImpl {
+
+	public static void main(String[] args) {
+		HashSet<Integer> hashSet = new HashSet<Integer>();
+		hashSet.add(10);
+		hashSet.add(32);
+		hashSet.add(20);
+		hashSet.add(21);
+		
+	 Iterator<Integer> iterator = hashSet.iterator();
+	 
+	 while(iterator.hasNext()) {
+		 if(iterator.next() == 10) {
+			 hashSet.remove(10);
+		 }
+		 System.out.println(iterator.next());
+		
+	 }
+	 
+	 List<Integer> integers = new ArrayList<Integer>(hashSet);
+	 Collections.sort(integers);
+	 
+	 System.out.println(" -------------");
+	 System.out.println(integers);
+	 
+	}
+}

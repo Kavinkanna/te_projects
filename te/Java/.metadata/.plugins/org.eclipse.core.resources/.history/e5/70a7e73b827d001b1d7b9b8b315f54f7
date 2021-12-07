@@ -1,0 +1,13 @@
+package com.tyss.thread.multithread;
+
+public class ThreadTest {
+
+	public static void main(String[] args) {
+		
+		MainClass tables = new MainClass();
+		
+		Runnable ref1 =()->{
+			tables.printTable(10);
+		};
+	}
+}

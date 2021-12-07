@@ -1,0 +1,11 @@
+package com.tyss.elftraining.common;
+
+public class ParentClass {
+
+	int id ;
+	String name ;
+	
+	public ParentClass() {
+		
+	}
+}

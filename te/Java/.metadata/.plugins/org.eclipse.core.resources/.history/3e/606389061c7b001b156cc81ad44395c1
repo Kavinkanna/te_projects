@@ -1,0 +1,47 @@
+package com.tyss.mycollection.common;
+
+public class MyArray {
+
+	int[] arr;
+	int[] default_Array = {};
+	int size ;
+//	private int position;
+	
+	public MyArray() {
+		arr = default_Array;
+	}
+	
+	public MyArray(int size) {
+		arr = new int[size];
+		this.size = size;
+	}
+	
+	public boolean add(int element) {
+		arr[size++] = element;
+		return true;
+	}
+	
+	public int get(int index) {
+		return arr[index];
+	}
+	
+	public void set(int index , int element) {
+		arr[index] = element;
+	}
+	
+	public void remove(int index) {
+		System.arraycopy(arr, index+1, arr, index, size-1-index);
+	}
+	@Override
+	public String toString() {
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != 0) {
+				
+				System.out.println(arr[i]);
+			}
+		}
+		
+		return "";
+	}
+} 
+

@@ -1,0 +1,41 @@
+package com.tyss.mycollection.arraylist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+
+public class HashSetImpl {
+
+	public static void main(String[] args) {
+		HashSet<Integer> hashSet = new HashSet<Integer>();
+		hashSet.add(10);
+		hashSet.add(32);
+		hashSet.add(20);
+		hashSet.add(21);
+		hashSet.remove(10);
+
+		Iterator<Integer> iterator = hashSet.iterator();
+
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+
+		List<Integer> integers = new ArrayList<Integer>(hashSet);
+		Collections.sort(integers);
+
+		System.out.println(" -------------");
+		System.out.println(integers);
+
+		HashSet<Person> persons = new HashSet<Person>();
+
+		persons.add(new Person(90, "Prateek"));
+		persons.add(new Person(20, "Jeevan"));
+		persons.add(new Person(70, "Santosh"));
+		persons.add(new Person(10, "Amar"));
+		persons.add(new Person(80, "Nilim"));
+		persons.add(new Person(8, "Bunny"));
+
+	}
+}

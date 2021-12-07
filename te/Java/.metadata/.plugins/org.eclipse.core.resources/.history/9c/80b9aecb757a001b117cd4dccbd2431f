@@ -1,0 +1,15 @@
+package com.tyss.custome_exception.customeuncheckedexception;
+
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String age = scanner.next();
+		
+		int finalAge = Integer.parseInt(age);
+		
+		Election election = new Election();
+		election.vote(19);
+	}
+}

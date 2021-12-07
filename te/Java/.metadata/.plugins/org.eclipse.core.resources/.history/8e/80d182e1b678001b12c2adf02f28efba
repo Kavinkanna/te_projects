@@ -1,0 +1,16 @@
+package com.tyss.basics.main;
+
+public class SubClass extends ParentClass {
+
+	
+	void printDesignation() {
+		// TODO Auto-generated method stub
+		super.printDesignation();
+	}
+	
+	public void printName() {
+		// TODO Auto-generated method stub
+		super.printName();
+	}
+	
+}

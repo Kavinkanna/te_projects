@@ -1,0 +1,11 @@
+package com.tyss.elftraining.exceptions;
+
+public class Test {
+
+	public static void main(String[] args) {
+		MainClass class1 = new MainClass();
+		
+		class1.readFile();
+		
+	}
+}

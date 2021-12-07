@@ -1,0 +1,5 @@
+package com.tyss.custome_exception.chechkedexception;
+
+public class InsufficientBalanceException {
+
+}

@@ -1,0 +1,22 @@
+package com.tyss.thread.common;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		MyFunctionalInterface ref1 = (String n) ->{
+			System.out.println("success");
+			System.out.println(n);
+			return false;
+		};
+		ref1.getData("ELF");
+		System.out.println(" -----------------");
+		MyFunctionalInterface ref2 =(String name)->{
+			System.out.println(" ELF ");
+			System.out.println(name);
+			return true;
+		};
+		
+		ref2.getData("Training");
+	}
+}
